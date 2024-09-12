@@ -20,7 +20,7 @@ print(fg.red+bg.blue + "Hello" + bg.off + " World!" + fg.off)
 ```python
 from ansi_esc.font import effects as eff
 
-print(eff.underline + "Hello" + eff.underline_off + eff.blink + " World!" eff.blink_off)
+print(eff.underline + "Hello" + eff.underline_off+eff.blink + " World!" + eff.blink_off)
 ```
 
 # License
