@@ -1,7 +1,12 @@
-# ansi_esc
-`ansi_esc` is a python library for ANSI escape characters.
+# ansi-esc
+`ansi-esc` is a python library for ANSI escape characters.
 
-# Examples
+# Install
+```bash
+python3 -m pip install ansi-esc --upgrade
+```
+
+# Usage
 
 ## Colors
 ```python
@@ -17,3 +22,6 @@ from ansi_esc.font import effects as eff
 
 print(eff.underline + "Hello" + eff.underline_off + eff.blink + " World!")
 ```
+
+# License
+MIT
