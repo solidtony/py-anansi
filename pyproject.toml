@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ansi-esc"
-version = "0.0.0"
+version = "0.0.0.0"
 dependencies = []
 description = "ansi-esc is a python library for ANSI escape characters."
 authors = [
