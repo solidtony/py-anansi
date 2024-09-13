@@ -1,7 +1,7 @@
 '''
 ANSI escape characters for font background colors.
 '''
-from ansi_esc.font.colors.background._background import (
+from anansi.font.colors.background._background import (
     color,
     black,
     red,

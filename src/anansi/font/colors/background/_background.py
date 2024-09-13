@@ -1,10 +1,10 @@
 '''
 ANSI escape character definitions for font background color.
 '''
-from ansi_esc.font.esc import esc
-from ansi_esc.font.colors._color_id import validate_color_8_id
-from ansi_esc.font.colors._color_id import format_color_256
-from ansi_esc.font.colors._color_id import format_color_rgb
+from anansi.font.esc import esc
+from anansi.font.colors._color_id import validate_color_8_id
+from anansi.font.colors._color_id import format_color_256
+from anansi.font.colors._color_id import format_color_rgb
 
 
 

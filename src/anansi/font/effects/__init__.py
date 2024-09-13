@@ -1,7 +1,7 @@
 '''
 ANSI escape characters for font effects.
 '''
-from ansi_esc.font.effects._effects import (
+from anansi.font.effects._effects import (
     reset, default, normal,
     bold, increased_intensity,
     faint, dim, decreased_intensity,

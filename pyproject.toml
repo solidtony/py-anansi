@@ -3,10 +3,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ansi-esc"
+name = "py-anansi"
 version = "0.0.0.0"
 dependencies = []
-description = "ansi-esc is a python library for ANSI escape characters."
+description = `anansi` (ANother ANSI) is yet antoher python library for ANSI escape characters.
 authors = [
     {name = "Anthony Garcia", email = "anthonygarcia918@hotmail.com"}
 ]
@@ -20,4 +20,4 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/solidtony/ansi_esc.git"
+Repository = "https://github.com/solidtony/py-anansi.git"

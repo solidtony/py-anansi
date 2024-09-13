@@ -1,7 +1,7 @@
 '''
 ANSI escape characters for font foreground colors.
 '''
-from ansi_esc.font.colors.foreground._foreground import (
+from anansi.font.colors.foreground._foreground import (
     color,
     black,
     red,

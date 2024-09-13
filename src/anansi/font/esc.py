@@ -2,7 +2,7 @@
 Module contains the escape character functions for fonts intended primarily for
 internal use.
 '''
-from ansi_esc.escape_char import OCTAL_ESC
+from anansi.escape_char import OCTAL_ESC
 
 
 

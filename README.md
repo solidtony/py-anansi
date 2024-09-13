@@ -1,24 +1,24 @@
-# ansi-esc
-`ansi-esc` is a python library for ANSI escape characters.
+# anansi
+`anansi` (ANother ANSI) is yet antoher python library for ANSI escape characters. The name "anansi" was inspired by the Akan folktale character Anansi.
 
 # Install
 ```bash
-python3 -m pip install ansi-esc --upgrade
+python3 -m pip install py-anansi --upgrade
 ```
 
 # Usage
 
 ## Colors
 ```python
-from ansi_esc.font.colors import background as bg
-from ansi_esc.font.colors import foreground as fg
+from anansi.font.colors import background as bg
+from anansi.font.colors import foreground as fg
 
 print(fg.red+bg.blue + "Hello" + bg.off + " World!" + fg.off)
 ```
 
 ## Effects
 ```python
-from ansi_esc.font import effects as eff
+from anansi.font import effects as eff
 
 print(eff.underline + "Hello" + eff.underline_off+eff.blink + " World!" + eff.blink_off)
 ```

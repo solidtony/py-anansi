@@ -1,7 +1,7 @@
 '''
 ANSI escape character definitions for font ideograms.
 '''
-from ansi_esc.font.esc import esc
+from anansi.font.esc import esc
 
 
 
