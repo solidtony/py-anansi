@@ -1,5 +1,5 @@
 # anansi
-`anansi` (ANother ANSI) is yet antoher python library for ANSI escape characters. The name "anansi" was inspired by the Akan folktale character Anansi.
+`anansi` (`ANother ANSI`) is yet antoher python library for ANSI escape characters. The name "anansi" was inspired by the Akan folktale character Anansi.
 
 # Install
 ```bash

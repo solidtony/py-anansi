@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "py-anansi"
 version = "0.0.0.0"
 dependencies = []
-description = `anansi` (ANother ANSI) is yet antoher python library for ANSI escape characters.
+description = '`anansi` (`ANother ANSI`) is yet antoher python library for ANSI escape characters.'
 authors = [
     {name = "Anthony Garcia", email = "anthonygarcia918@hotmail.com"}
 ]
@@ -18,6 +18,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/anansi"]
 
 [project.urls]
 Repository = "https://github.com/solidtony/py-anansi.git"
